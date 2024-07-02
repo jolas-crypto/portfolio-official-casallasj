@@ -10,6 +10,7 @@ export default {
       colors: {
         customPurple: '#240A39',
         customPurpleSection: '#35184D',
+        customSection: '#280644',
       },
     },
   },

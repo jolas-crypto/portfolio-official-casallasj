@@ -11,7 +11,7 @@
 <body>
     <div id="app" class="text-white">
         @include('includes.header')
-        <div class="bg-customPurple text-gray-300">
+        <div>
             @yield('content')
         </div>
         @include('includes.footer')

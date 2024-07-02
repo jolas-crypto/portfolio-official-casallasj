@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .skills {
+        @apply hover:bg-customPurpleSection bg-customSection p-10 text-center border border-purple-900 py-10 rounded-2xl
+    }
+
+    .skill-images {
+        @apply h-24 flex items-center justify-center mb-4 hover:scale-110
+    }
+
+    .image-container {
+        @apply relative p-36 bg-white shadow-lg overflow-hidden
+    }
+
+    .image-container-sub {
+        @apply absolute inset-0 w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-125
+    }
+}
