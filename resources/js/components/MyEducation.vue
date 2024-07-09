@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-customPurple">
+    <div class="bg-customSection">
         <div class="container mx-auto py-16">
             <h1 class="text-4xl font-bold mb-8 text-center">My Education</h1>
             <div class="grid grid-cols-1">

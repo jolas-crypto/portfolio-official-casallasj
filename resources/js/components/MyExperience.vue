@@ -14,6 +14,9 @@
             </nav>
             <section class="drop-shadow-xl rounded-md">
                 <section class="py-3 space-y-5">
+                    <div v-if="activeTab == 'all'">
+                        <All></All>
+                    </div>
                     <div v-if="activeTab == 'webDeveloper'">
                         <WebDeveloper></WebDeveloper>
                     </div>
@@ -40,6 +43,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import All from './experience/All.vue';
 import WebDeveloper from './experience/WebDeveloper.vue';
 import Instructor from './experience/Instructor.vue';
 import Technician from './experience/Technician.vue';
@@ -47,7 +51,7 @@ import CollectionInvestigation from './experience/CollectionInvestigation.vue';
 import StudentAssistant from './experience/StudentAssistant.vue';
 import Canteen from './experience/Canteen.vue';
 
-const activeTab = ref('');
+const activeTab = ref('all');
 
 const tabs = ref({
     all: 'All',

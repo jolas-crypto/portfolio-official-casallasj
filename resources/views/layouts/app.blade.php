@@ -10,7 +10,6 @@
 </head>
 <body>
     <div id="app" class="text-white">
-        @include('includes.header')
         <div>
             @yield('content')
         </div>

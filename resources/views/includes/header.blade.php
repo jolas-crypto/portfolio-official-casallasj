@@ -5,11 +5,10 @@
             <span class="ml-2 text-lg">casallasjolas28@gmail.com</span>
         </div>
         <nav class="flex gap-4">
-            <a href="#" class="hover:text-purple-500">Project</a>
-            <a href="#" class="hover:text-purple-500">Works</a>
-            <a href="#" class="hover:text-purple-500">Resume</a>
-            <a href="#" class="hover:text-purple-500">Skills</a>
-            <a href="#" class="hover:text-purple-500">Contact</a>
+            <a href="#" class="header-class">Experiences</a>
+            <a href="#" class="header-class">Projects</a>
+            <a href="#" class="header-class">Education</a>
+            <a href="#" class="header-class">Skills</a>
         </nav>
     </div>
 </header>
