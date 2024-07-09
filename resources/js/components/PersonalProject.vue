@@ -6,16 +6,21 @@
                 <div class="bg-customPurpleSection rounded-md">
                     <div class="image-container">
                         <img src="/images/rrap.jpg" class="image-container-sub">
+                        <div class="absolute bottom-0 left-0 bg-transparent bg-opacity-50 text-black text-lg font-bold p-2">
+                            <a href="">Post Management System</a>
+                        </div>
                     </div>
                 </div>
                 <div class="bg-customPurpleSection rounded-md">
                     <div class="image-container">
-                        <img src="/images/userapi.jpg" class="image-container-sub">
-                    </div>
-                </div>
-                <div class="bg-customPurpleSection rounded-md">
-                    <div class="image-container">
-                        <img src="/images/rdms.jpg" class="image-container-sub">
+                        <img src="/images/payroll_system.jpg" class="image-container-sub">
+                        <div class="absolute bottom-0 left-0 bg-transparent bg-opacity-50 text-black text-lg font-bold p-2">
+                            <div class="border border-purple-500 rounded-xl hover:border-purple-100">
+                                <div class="p-4 space-y-2">
+                                    <a href="https://github.com/jolas-crypto/payroll-system" target="_blank">Payroll System</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

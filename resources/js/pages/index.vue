@@ -1,17 +1,27 @@
 <template>
+    <Header></Header>
     <SubHeader
     ></SubHeader>
-    <MyExperience
-    ></MyExperience>
-    <PersonalProject
-    ></PersonalProject>
-    <MyEducation
-    ></MyEducation>
-    <Skill
-    ></Skill>
+    <section id="experience" class="transition-section shadow">
+        <MyExperience
+        ></MyExperience>
+    </section>
+    <section id="project" class="transition-section shadow">
+        <PersonalProject
+        ></PersonalProject>
+    </section>
+    <section id="education">
+        <MyEducation
+        ></MyEducation>
+    </section>
+    <section id="skill">
+        <Skill
+        ></Skill>
+    </section>
 </template>
 
 <script setup>
+    import Header from './Header.vue';
     import SubHeader from '../components/SubHeader.vue'
     import PersonalProject from '../components/PersonalProject.vue';
     import MyEducation from '../components/MyEducation.vue';
